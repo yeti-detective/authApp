@@ -5,18 +5,14 @@ import {
    Text,
    View
 } from 'react-native';
-import Nav from "./navbar";
+
 // import {} from "../actions"
-import Login from "./login";
-import { StyleProvider } from '@shoutem/theme';
+import Login from "./login"
 var App = React.createClass({
    render() {
       return (
-         <View>
-            <Login />
-         <Nav />
-   </View>
-);
+         <Login />
+   );
 }
 });
 
