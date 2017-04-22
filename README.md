@@ -1,5 +1,5 @@
 # authApp
-Install react native and it's cli if you done that yet. https://facebook.github.io/react-native/docs/getting-started.html
+Install react native and it's cli if you haven't done that yet. https://facebook.github.io/react-native/docs/getting-started.html
 You'll also need Xcode (for the simulator) or expo https://expo.io/
 
 git pull the repo and run npm install --save 
