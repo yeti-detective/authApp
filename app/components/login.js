@@ -62,7 +62,7 @@ var Login = React.createClass({
 
             <View style= {styles.buttonContainer}>
                <TouchableOpacity>
-                  <Text style={styles.button} onPress={this.onSignIn}>
+                  <Text style={styles.button} onPress={()=>{this.onSignIn}}>
                      SIGN IN
                   </Text>
                </TouchableOpacity>
